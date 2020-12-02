@@ -1,0 +1,411 @@
+.header {
+  padding: 30px 100px;
+  color: white;
+  background-image: url('nick-karvounis-YmyFBvW7oG8-unsplash.jpg');
+  height: 700px;
+  background-size: cover;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  width: 100%;
+  background-attachment: fixed;
+}
+
+body {
+  font-family: 'Quicksand', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.header h1 {
+  margin: 10px 0 100px 0;
+  font-weight: lighter;
+  font-size: 5rem;
+}
+
+.header-descp {
+  width: 40%;
+  color: white;
+  margin: 40px 0;
+}
+
+.header-descp h2 {
+  font-size: 4rem;
+  font-weight: lighter;
+  margin-bottom: 70px;
+}
+
+.header-descp-p {
+  width: 70%;
+  font-size: 1.5rem;
+  letter-spacing: 2px;
+}
+
+.book {
+  width: 200px;
+  height: 50px;
+  padding: 10px;
+  font-family: 'Quicksand', sans-serif;
+  color: white;
+  border: 1px solid white;
+  background-color: transparent;
+  margin-top: 50px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.book:hover {
+  background-color: white;
+  color: black;
+  transition: 0.3s;
+}
+.container-1{
+  width: 100%;
+  height: 500px;
+  position: relative;
+  text-align: center;
+  padding: 50px 0;
+  left: 15%;
+}
+.container-1 img{
+  width: 300px;
+  height: auto;
+  transition: 0.3s;
+  box-shadow: 5px 5px 9px #888888;
+}
+.container-1 img:hover{
+  width: 310px;
+  height: auto;
+  transition: 0.3s;
+  box-shadow: 5px 7px 9px #888888;
+}
+.container-1-1{
+    font-family: 'Quicksand', sans-serif;
+  width: 70%;
+  height: auto;
+  padding: 150px 20px 40px 20px;
+}
+.container-2{
+  font-family: 'Quicksand', sans-serif;
+width: 70%;
+height: auto;
+position: relative;
+left: 35%;
+padding: 150px 0 0 0;
+}
+.container-2-1{
+  width: 100%;
+  height: 500px;
+  position: relative;
+}
+.container-2-1 img{
+  width:300px;
+  height: auto;
+    box-shadow: 5px 7px 9px #888888;
+    transition: 0.3s;
+    position: absolute;
+    left: 20%;
+}
+.container-2-1 img:hover{
+  width: 310px;
+  height: auto;
+  box-shadow: 5px 7px 9px #888888;
+  transition: 0.3s;
+}
+.highlights {
+  width: 100%;
+  height: auto;
+  background-color: black;
+  color: white;
+  padding: 50px 0px 50px 100px;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.food-img {
+  width: 120px;
+  height: auto;
+}
+
+.descp {
+  padding-top: 120px;
+}
+
+.high-food {
+  display: inline;
+  margin-left: 50px;
+}
+
+.high-food-descp {
+  display: inline-block;
+  width: 60%;
+  margin: 0px 0 30px 50px;
+}
+
+.gatherings {
+  width: 100%;
+  padding: 5% 10%;
+  background-color: white;
+  color: black;
+  height: 1000px;
+}
+
+.gatherings h1 {
+  font-size: 3rem;
+  font-weight: lighter;
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+.gath-button {
+  width: 200px;
+  height: 50px;
+  background-color: black;
+  color: white;
+  border: 1px solid black;
+  padding: 10px 20px;
+  margin-bottom: 20px;
+  transition: 0.2s;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.gath-button:hover {
+  background-color: white;
+  color: black;
+  border: 2px solid black;
+  transition: 0.2s;
+}
+
+.sub-gath {
+  padding: 2% 4%;
+  width: 90%;
+  position: relative;
+}
+
+.img-gath {
+  width: 270px;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+  box-shadow: 5px 5px 9px #888888;
+  transition: 0.3s;
+}
+
+.img-gath:hover {
+  width: 300px;
+  height: auto;
+  transition: 0.3s;
+  /* transform: translate(-1%,-1%); */
+}
+
+.sub-gath h2, .sub-gath p {
+  text-align: center;
+  font-weight: lighter;
+  margin-bottom: 20px;
+}
+
+.footer {
+  background-color: black;
+  padding: 4% 10%;
+  height: auto;
+  width: 100%;
+  color: white;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.footer h1 {
+  font-size: 5rem;
+  color: white;
+  font-weight: lighter;
+}
+
+.footer p {
+  font-weight: lighter;
+  cursor: pointer;
+}
+
+.mt-10 {
+  margin-top: 10px;
+}
+
+/* RESERVATION */
+.reservation {
+  width: 100%;
+  height: 500px;
+  padding: 1% 10%;
+  color: white;
+  background-color: black;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.reservation h1 {
+  font-weight: lighter;
+  font-size: 5rem;
+}
+
+.res-descp {
+  font-family: 'Quicksand', sans-serif;
+  width: 30%;
+  height: auto;
+  color: white;
+  margin: 100px 0;
+}
+
+.res-descp-p {
+  font-size: 4.5rem;
+  font-weight: lighter;
+}
+
+.resv-box {
+  border-radius: 10px;
+  font-family: 'Quicksand', sans-serif;
+  width: 30%;
+  height: auto;
+  padding: 50px 40px;
+  color: black;
+  position: absolute;
+  left: 50%;
+  top: 28%;
+  border-style: none;
+border:1px solid gray;
+  background-color: white;
+}
+
+.name, .email {
+  font-family: 'Quicksand', sans-serif;
+  width: 90%;
+  margin-bottom: 30px;
+  border-style: none;
+  border-bottom: 1px solid black;
+  padding: 5px 10px 0 0;
+  font-size: 1.2rem;
+  font-weight: lighter;
+  height: 40px;
+}
+
+.date {
+  font-family: 'Quicksand', sans-serif;
+  width: 50px;
+  height: auto;
+  border-style: none;
+  border-bottom: 1px solid black;
+  margin: 2% 3% 0 3%;
+  font-size: 1.2rem;
+}
+
+.resv-box p {
+  margin: 20px 20px 10px 0;
+  display: inline-block;
+  font-size: 1.4rem;
+}
+
+.people {
+  width: 100%;
+  font-size: 1.4rem;
+  color: black;
+  border-style: none;
+  border-bottom: 1px solid black;
+  font-family: 'Quicksand', sans-serif;
+  margin: 50px 0 50px 0;
+  text-align: center;
+}
+
+.people:focus {
+  font-weight: bold;
+}
+
+input:focus, textarea:focus, select:focus {
+  outline: none;
+}
+
+.mk-res {
+  width: 100%;
+  height: 50px;
+  border-style: none;
+  text-align: center;
+  padding: 5px 0;
+  color: white;
+  background-color: black;
+  font-family: 'Quicksand', sans-serif;
+  box-shadow: 5px 5px 9px #888888;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.mk-res:hover {
+  background-color: white;
+  border: 2px solid black;
+  color: black;
+  transition: 0.3s;
+}
+
+.fa {
+  font-size: 2.3rem;
+  color: white;
+  transition: 0.3s;
+  margin: 0 15px;
+  cursor: pointer;
+}
+
+.fb:hover {
+  color: #3b5998;
+}
+
+.ig:hover {
+  color: #FFC0CB;
+}
+
+.tw:hover {
+  color: #00acee;
+}
+
+.yt:hover {
+  color: #c4302b;
+}
+
+@media (max-width:700px) {
+  .descp {
+    margin-bottom: 100px;
+  }
+
+  .gatherings {
+    height: 2100px;
+  }
+
+  .gath-button {
+    left: 35%;
+  }
+
+  .highlights {
+    padding: 100px 20px 20px;
+  }
+
+  .resv-box {
+    position: relative;
+    width: 90%;
+    top: 5%;
+    left: 5%;
+  }
+
+  .res-descp {
+    width: 80%;
+  }
+
+  .date {
+    width: 40px;
+  }
+.container-1{
+  left: 2%;
+}
+.container-1-1{
+  text-align: center;
+  width: 100%;
+  padding: 0 20px;
+}
+.container-2{
+  text-align: center;
+  width: 100%;
+  padding: 90px 20px 10px 0;
+  left: 2%;
+}
+}
